@@ -24,7 +24,9 @@ p {
 /* darle altura y ancho en cointainer*/
 .container {
   display: flex;
-  margin: 0 auto;
+  height: 100vh;
+  justify-content: center;
+  margin: auto;
 }
 
 .col__left {
