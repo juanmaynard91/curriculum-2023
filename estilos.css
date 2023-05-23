@@ -35,7 +35,7 @@ p {
 }
 
 img {
-  image-rendering: pixelated;
+  /*image-rendering: pixelated;*/
   object-fit: cover;
   padding-bottom: 2rem;
   width: 20rem;
