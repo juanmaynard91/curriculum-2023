@@ -22,11 +22,16 @@ p {
 }
 
 /* darle altura y ancho en cointainer*/
-.container {
+.ancho-cv {
+  /*display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: auto;*/
   display: flex;
   height: 100vh;
   justify-content: center;
   margin: auto;
+  width: 80%;
 }
 
 .col__left {
