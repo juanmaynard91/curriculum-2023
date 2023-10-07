@@ -1,7 +1,9 @@
+/* Definición de variables */
 :root {
   --paddings: 1rem 0 1rem 1rem;
 }
 
+/* Reset de estilos para todos los elementos */
 * {
   border: none;
   list-style: none;
@@ -11,64 +13,65 @@
   margin: 0;
 }
 
+/* Estilos generales para el body y html */
 body,
 html {
   font-family: sans-serif;
 }
 
+/* Estilos para párrafos */
 p {
   font-size: 1.3em;
   margin-bottom: 0.5rem;
 }
 
-/* darle altura y ancho en cointainer*/
+/* Estilos para el contenedor principal */
 .ancho-cv {
   display: flex;
   height: 100vh;
   justify-content: center;
   margin: auto;
-  /*width: 80%;*/
 }
 
+/* Estilos para la columna izquierda */
 .col__left {
   background-color: #232526;
   color: white;
 }
 
+/* Estilos para imágenes */
 img {
-  /*image-rendering: pixelated;*/
   object-fit: cover;
   padding-bottom: 2rem;
   width: 21rem;
 }
 
-.contacts__altura {
-  padding: var(--paddings);
-}
-
-.languages__altura {
-  padding: var(--paddings);
-}
-
+/* Estilos para secciones de contactos, idiomas e información adicional */
+.contacts__altura,
+.languages__altura,
 .informacion__altura {
   padding: var(--paddings);
 }
 
+/* Estilos para las habilidades */
 .skills {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
 
+/* Estilos para títulos */
 .titulo {
   color: #638dff;
   font-size: 2em;
 }
 
+/* Estilos para el nombre */
 .nombre {
   font-size: 3rem;
   margin: 0;
 }
 
+/* Estilos para la columna derecha */
 .col__right {
   background-color: #eef2f3;
   padding: 2rem;
